@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Database (keep the data/ folder itself via .gitkeep, ignore the db file)
+data/*.db
+data/*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# OS / Editor
+.DS_Store
+.vscode/
+*.log
